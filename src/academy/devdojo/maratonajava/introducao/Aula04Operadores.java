@@ -8,6 +8,15 @@ public class Aula04Operadores {
         int resultado = numero1 * numero2;
         System.out.println(resultado);
 
+        //%
+        int resto = 20 % 2;
+        System.out.println(resto);
 
+        // < > <= >= == != COMPARAR TIPOS QUE PODEM SER COMPARADOS, NÃO DA PRA COMPARAR INT COM STRING
+        //menor, maior, menor igual, maior igual, comparando igualdade, diferente
+        boolean isDezMaiorQueVinte = 10 != 20;
+        System.out.println("10 é diferente de 20? "+ isDezMaiorQueVinte);
+
+        //Operadores lógicos
     }
 }
