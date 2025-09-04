@@ -7,7 +7,7 @@ public class Aula05EstruturasCondicionais02 {
         //idade > 18 = Categoria adulta
 
         int idade = 18;
-        String categoria;
+        String categoria = "";
 
         if(idade < 15){
             categoria = "Categoria Infatil";
