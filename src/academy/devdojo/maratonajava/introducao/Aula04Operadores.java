@@ -34,6 +34,24 @@ public class Aula04Operadores {
 
         System.out.println("Playstation five can be bought? " + isPlaystationFiveCanBeBought);
 
+        //Operadores de Atribuição
+        // = += -= *= /= %=
+        double bonus = 1800;
+        bonus += 1000; //2800
+        bonus -= 1000; //1800
+        bonus *= 2; //3600
+        bonus /= 2; //1800
+
+        System.out.println(bonus);
+
+        int contador = 0;
+        contador ++;
+        contador--;
+        contador--;
+        ++contador;
+
+        System.out.println(contador);
+
 
     }
 }
