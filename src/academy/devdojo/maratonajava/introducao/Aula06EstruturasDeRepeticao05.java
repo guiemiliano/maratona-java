@@ -1,6 +1,6 @@
 package academy.devdojo.maratonajava.introducao;
 
-public class Aula06EstruturasDeRepeticao04 {
+public class Aula06EstruturasDeRepeticao05 {
     public static void main(String[] args) {
         double valorDoCarro = 50000;
         for (int parcela = 1; parcela <= valorDoCarro ; parcela++) {
@@ -14,6 +14,5 @@ public class Aula06EstruturasDeRepeticao04 {
             }
 
         }
-
     }
 }
